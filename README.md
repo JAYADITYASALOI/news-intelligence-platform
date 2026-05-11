@@ -269,5 +269,5 @@ This project provided practical experience in:
 •	Scalable software architecture
 Author - JAYADITYA SALOI
 GitHub: https://github.com/JAYADITYASALOI
-GitHub: https://github.com/JAYADITYASALOI/news-intelligence-platform
+GitHub Repo: https://github.com/JAYADITYASALOI/news-intelligence-platform
 
