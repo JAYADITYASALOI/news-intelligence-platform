@@ -1,0 +1,47 @@
+INSERT INTO articles (
+  article_hash, title, description, content, article_url, image_url,
+  source_id, source_name, source_url, author, country, category, language,
+  published_at, ai_summary, ai_sentiment, ai_insights, ai_keywords, raw_json
+) VALUES
+(
+  'seedhash001',
+  'AI reshapes the news industry',
+  'A sample article to verify the dashboard.',
+  'Artificial intelligence continues to change how news is collected and summarized.',
+  'https://example.com/article-1',
+  NULL,
+  'example-source',
+  'Example Source',
+  'https://example.com',
+  'OpenAI',
+  'India',
+  'technology',
+  'en',
+  '2025-01-01 10:00:00',
+  'AI is changing newsroom workflows by speeding up research and summarization.',
+  'neutral',
+  JSON_ARRAY('Faster article processing', 'More consistent summaries', 'Better user search experience'),
+  JSON_ARRAY('AI', 'news', 'dashboard'),
+  JSON_OBJECT('sample', true)
+),
+(
+  'seedhash002',
+  'Markets react to global developments',
+  'Another sample article for testing.',
+  'Investors are watching major global events and reacting quickly to fresh information.',
+  'https://example.com/article-2',
+  NULL,
+  'example-source',
+  'Example Source',
+  'https://example.com',
+  'OpenAI',
+  'India',
+  'business',
+  'en',
+  '2025-01-02 09:30:00',
+  'Markets are moving as investors respond to global uncertainty and new information.',
+  'negative',
+  JSON_ARRAY('Market sensitivity', 'Need for fast updates', 'Useful sentiment tracking'),
+  JSON_ARRAY('markets', 'business', 'sentiment'),
+  JSON_OBJECT('sample', true)
+);
